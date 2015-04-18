@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6271E8A91AE2CC4400C2AF16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6271E8A61AE2CC4400C2AF16 /* AppDelegate.m */; };
+		6271E8AA1AE2CC4400C2AF16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6271E8A81AE2CC4400C2AF16 /* ViewController.m */; };
+		6271E8AC1AE2CC7F00C2AF16 /* point.png in Resources */ = {isa = PBXBuildFile; fileRef = 6271E8AB1AE2CC7F00C2AF16 /* point.png */; };
+		62910300199123BA00266204 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 629102FF199123BA00266204 /* Foundation.framework */; };
+		62910302199123BA00266204 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62910301199123BA00266204 /* CoreGraphics.framework */; };
+		62910304199123BA00266204 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62910303199123BA00266204 /* UIKit.framework */; };
+		6291030A199123BA00266204 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62910308199123BA00266204 /* InfoPlist.strings */; };
+		6291030C199123BA00266204 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6291030B199123BA00266204 /* main.m */; };
+		62910313199123BA00266204 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62910311199123BA00266204 /* Main.storyboard */; };
+		62910318199123BA00266204 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62910317199123BA00266204 /* Images.xcassets */; };
+		6291031F199123BA00266204 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6291031E199123BA00266204 /* XCTest.framework */; };
+		62910320199123BA00266204 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 629102FF199123BA00266204 /* Foundation.framework */; };
+		62910321199123BA00266204 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62910303199123BA00266204 /* UIKit.framework */; };
+		62910329199123BA00266204 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62910327199123BA00266204 /* InfoPlist.strings */; };
+		6291032B199123BA00266204 /* matyExpandableTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6291032A199123BA00266204 /* matyExpandableTableViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62910322199123BA00266204 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 629102F4199123BA00266204 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 629102FB199123BA00266204;
+			remoteInfo = matyExpandableTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6271E8A51AE2CC4400C2AF16 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6271E8A61AE2CC4400C2AF16 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6271E8A71AE2CC4400C2AF16 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6271E8A81AE2CC4400C2AF16 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6271E8AB1AE2CC7F00C2AF16 /* point.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = point.png; sourceTree = "<group>"; };
+		629102FC199123BA00266204 /* matyExpandableTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = matyExpandableTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		629102FF199123BA00266204 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		62910301199123BA00266204 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		62910303199123BA00266204 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		62910307199123BA00266204 /* matyExpandableTableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "matyExpandableTableView-Info.plist"; sourceTree = "<group>"; };
+		62910309199123BA00266204 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6291030B199123BA00266204 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6291030D199123BA00266204 /* matyExpandableTableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "matyExpandableTableView-Prefix.pch"; sourceTree = "<group>"; };
+		62910312199123BA00266204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62910317199123BA00266204 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6291031D199123BA00266204 /* matyExpandableTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = matyExpandableTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6291031E199123BA00266204 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		62910326199123BA00266204 /* matyExpandableTableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "matyExpandableTableViewTests-Info.plist"; sourceTree = "<group>"; };
+		62910328199123BA00266204 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6291032A199123BA00266204 /* matyExpandableTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = matyExpandableTableViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		629102F9199123BA00266204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62910302199123BA00266204 /* CoreGraphics.framework in Frameworks */,
+				62910304199123BA00266204 /* UIKit.framework in Frameworks */,
+				62910300199123BA00266204 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6291031A199123BA00266204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6291031F199123BA00266204 /* XCTest.framework in Frameworks */,
+				62910321199123BA00266204 /* UIKit.framework in Frameworks */,
+				62910320199123BA00266204 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6271E8A41AE2CC4400C2AF16 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6271E8A51AE2CC4400C2AF16 /* AppDelegate.h */,
+				6271E8A61AE2CC4400C2AF16 /* AppDelegate.m */,
+				6271E8A71AE2CC4400C2AF16 /* ViewController.h */,
+				6271E8A81AE2CC4400C2AF16 /* ViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		629102F3199123BA00266204 = {
+			isa = PBXGroup;
+			children = (
+				62910305199123BA00266204 /* matyExpandableTableView */,
+				62910324199123BA00266204 /* matyExpandableTableViewTests */,
+				629102FE199123BA00266204 /* Frameworks */,
+				629102FD199123BA00266204 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		629102FD199123BA00266204 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				629102FC199123BA00266204 /* matyExpandableTableView.app */,
+				6291031D199123BA00266204 /* matyExpandableTableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		629102FE199123BA00266204 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				629102FF199123BA00266204 /* Foundation.framework */,
+				62910301199123BA00266204 /* CoreGraphics.framework */,
+				62910303199123BA00266204 /* UIKit.framework */,
+				6291031E199123BA00266204 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62910305199123BA00266204 /* matyExpandableTableView */ = {
+			isa = PBXGroup;
+			children = (
+				62910311199123BA00266204 /* Main.storyboard */,
+				6271E8A41AE2CC4400C2AF16 /* Classes */,
+				62910317199123BA00266204 /* Images.xcassets */,
+				6271E8AB1AE2CC7F00C2AF16 /* point.png */,
+				62910306199123BA00266204 /* Supporting Files */,
+			);
+			path = matyExpandableTableView;
+			sourceTree = "<group>";
+		};
+		62910306199123BA00266204 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62910307199123BA00266204 /* matyExpandableTableView-Info.plist */,
+				62910308199123BA00266204 /* InfoPlist.strings */,
+				6291030B199123BA00266204 /* main.m */,
+				6291030D199123BA00266204 /* matyExpandableTableView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62910324199123BA00266204 /* matyExpandableTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				6291032A199123BA00266204 /* matyExpandableTableViewTests.m */,
+				62910325199123BA00266204 /* Supporting Files */,
+			);
+			path = matyExpandableTableViewTests;
+			sourceTree = "<group>";
+		};
+		62910325199123BA00266204 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62910326199123BA00266204 /* matyExpandableTableViewTests-Info.plist */,
+				62910327199123BA00266204 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		629102FB199123BA00266204 /* matyExpandableTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6291032E199123BA00266204 /* Build configuration list for PBXNativeTarget "matyExpandableTableView" */;
+			buildPhases = (
+				629102F8199123BA00266204 /* Sources */,
+				629102F9199123BA00266204 /* Frameworks */,
+				629102FA199123BA00266204 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = matyExpandableTableView;
+			productName = matyExpandableTableView;
+			productReference = 629102FC199123BA00266204 /* matyExpandableTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6291031C199123BA00266204 /* matyExpandableTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62910331199123BA00266204 /* Build configuration list for PBXNativeTarget "matyExpandableTableViewTests" */;
+			buildPhases = (
+				62910319199123BA00266204 /* Sources */,
+				6291031A199123BA00266204 /* Frameworks */,
+				6291031B199123BA00266204 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62910323199123BA00266204 /* PBXTargetDependency */,
+			);
+			name = matyExpandableTableViewTests;
+			productName = matyExpandableTableViewTests;
+			productReference = 6291031D199123BA00266204 /* matyExpandableTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		629102F4199123BA00266204 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Maitrayee Ghosh";
+				TargetAttributes = {
+					6291031C199123BA00266204 = {
+						TestTargetID = 629102FB199123BA00266204;
+					};
+				};
+			};
+			buildConfigurationList = 629102F7199123BA00266204 /* Build configuration list for PBXProject "matyExpandableTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 629102F3199123BA00266204;
+			productRefGroup = 629102FD199123BA00266204 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				629102FB199123BA00266204 /* matyExpandableTableView */,
+				6291031C199123BA00266204 /* matyExpandableTableViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		629102FA199123BA00266204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62910318199123BA00266204 /* Images.xcassets in Resources */,
+				6291030A199123BA00266204 /* InfoPlist.strings in Resources */,
+				6271E8AC1AE2CC7F00C2AF16 /* point.png in Resources */,
+				62910313199123BA00266204 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6291031B199123BA00266204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62910329199123BA00266204 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		629102F8199123BA00266204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6271E8AA1AE2CC4400C2AF16 /* ViewController.m in Sources */,
+				6271E8A91AE2CC4400C2AF16 /* AppDelegate.m in Sources */,
+				6291030C199123BA00266204 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62910319199123BA00266204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6291032B199123BA00266204 /* matyExpandableTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62910323199123BA00266204 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 629102FB199123BA00266204 /* matyExpandableTableView */;
+			targetProxy = 62910322199123BA00266204 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62910308199123BA00266204 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62910309199123BA00266204 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		62910311199123BA00266204 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62910312199123BA00266204 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62910327199123BA00266204 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62910328199123BA00266204 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6291032C199123BA00266204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6291032D199123BA00266204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6291032F199123BA00266204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "matyExpandableTableView/matyExpandableTableView-Prefix.pch";
+				INFOPLIST_FILE = "matyExpandableTableView/matyExpandableTableView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		62910330199123BA00266204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "matyExpandableTableView/matyExpandableTableView-Prefix.pch";
+				INFOPLIST_FILE = "matyExpandableTableView/matyExpandableTableView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		62910332199123BA00266204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/matyExpandableTableView.app/matyExpandableTableView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "matyExpandableTableView/matyExpandableTableView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "matyExpandableTableViewTests/matyExpandableTableViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		62910333199123BA00266204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/matyExpandableTableView.app/matyExpandableTableView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "matyExpandableTableView/matyExpandableTableView-Prefix.pch";
+				INFOPLIST_FILE = "matyExpandableTableViewTests/matyExpandableTableViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		629102F7199123BA00266204 /* Build configuration list for PBXProject "matyExpandableTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6291032C199123BA00266204 /* Debug */,
+				6291032D199123BA00266204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6291032E199123BA00266204 /* Build configuration list for PBXNativeTarget "matyExpandableTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6291032F199123BA00266204 /* Debug */,
+				62910330199123BA00266204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62910331199123BA00266204 /* Build configuration list for PBXNativeTarget "matyExpandableTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62910332199123BA00266204 /* Debug */,
+				62910333199123BA00266204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 629102F4199123BA00266204 /* Project object */;
+}
